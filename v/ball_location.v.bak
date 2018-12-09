@@ -1,0 +1,8 @@
+module ball_location (
+	input clk,
+	input rst,
+	input wire [11:0] inx,
+	input wire [11:0] iny,
+	output reg [11:0] outx,
+	output reg [11:0] outy
+);

@@ -1,0 +1,47 @@
+module space (
+	input clk,
+	input rst,
+	input wire [11:0] inx,
+	input wire [11:0] iny,
+	output reg [11:0] outx,
+	output reg [11:0] outy
+);
+
+reg [3:0] xmov;
+reg [3:0] ymov;
+
+
+
+// ball is 20px by 20px
+
+always @(posedge clk or negedge rst)
+begin
+	if (!rst)
+	begin
+		outx <= 0;
+		outy <= 0;
+		xmov <= 5;
+		ymov <= 5;
+	end
+	else
+	begin
+		if (inx < 35)
+			xmov <= 5;
+		else if (inx > 585)
+			xmov <= -5;
+		
+		if (iny < 35)
+			ymov <= 5;
+		else if (iny > 425)
+			ymov <= -5;
+		
+		outx <= inx + xmov;
+		outy <= iny + ymov;
+		
+	end
+
+
+end
+
+
+endmodule

@@ -1,0 +1,437 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -7.981
+TNS   : -187.386
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -5.222
+TNS   : -118.232
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -4.167
+TNS   : -70.653
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -3.784
+TNS   : -394.749
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -3.573
+TNS   : -38.943
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -2.524
+TNS   : -40.799
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_CLKo[0]'
+Slack : -2.357
+TNS   : -55.446
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_CLKo[12]'
+Slack : -2.145
+TNS   : -19.425
+
+Type  : Slow 1200mV 85C Model Setup 'PS2_CLK'
+Slack : -0.924
+TNS   : -0.924
+
+Type  : Slow 1200mV 85C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -0.720
+TNS   : -0.720
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : 0.613
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_CLKo[0]'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_CLKo[12]'
+Slack : 0.656
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : 0.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PS2_CLK'
+Slack : 1.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -2.400
+TNS   : -19.200
+
+Type  : Slow 1200mV 85C Model Recovery 'PS2_CLK'
+Slack : -1.155
+TNS   : -1.155
+
+Type  : Slow 1200mV 85C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -1.152
+TNS   : -20.477
+
+Type  : Slow 1200mV 85C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : 0.611
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'PS2_CLK'
+Slack : 0.972
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 1.982
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.210
+TNS   : -4.495
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -220.165
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -1.285
+TNS   : -35.980
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_CLKo[0]'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -1.285
+TNS   : -20.560
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_CLKo[12]'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -7.126
+TNS   : -167.079
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -4.658
+TNS   : -106.369
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -3.724
+TNS   : -62.441
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -3.410
+TNS   : -347.906
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -3.229
+TNS   : -34.598
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -2.224
+TNS   : -34.608
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_CLKo[0]'
+Slack : -2.085
+TNS   : -48.575
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_CLKo[12]'
+Slack : -1.903
+TNS   : -16.853
+
+Type  : Slow 1200mV 0C Model Setup 'PS2_CLK'
+Slack : -0.824
+TNS   : -0.824
+
+Type  : Slow 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -0.512
+TNS   : -0.512
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : 0.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_CLKo[0]'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : 0.595
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_CLKo[12]'
+Slack : 0.602
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PS2_CLK'
+Slack : 0.921
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -2.107
+TNS   : -16.856
+
+Type  : Slow 1200mV 0C Model Recovery 'PS2_CLK'
+Slack : -1.010
+TNS   : -1.010
+
+Type  : Slow 1200mV 0C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -0.957
+TNS   : -17.002
+
+Type  : Slow 1200mV 0C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'PS2_CLK'
+Slack : 0.908
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 1.801
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.210
+TNS   : -4.495
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -220.165
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -1.285
+TNS   : -35.980
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_CLKo[0]'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -1.285
+TNS   : -20.560
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_CLKo[12]'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -3.435
+TNS   : -78.326
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -2.139
+TNS   : -47.103
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -1.455
+TNS   : -24.034
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.372
+TNS   : -113.048
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -1.266
+TNS   : -10.784
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -0.664
+TNS   : -0.664
+
+Type  : Fast 1200mV 0C Model Setup 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -0.660
+TNS   : -6.516
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_CLKo[0]'
+Slack : -0.594
+TNS   : -14.382
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_CLKo[12]'
+Slack : -0.473
+TNS   : -3.353
+
+Type  : Fast 1200mV 0C Model Setup 'PS2_CLK'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_CLKo[0]'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PS2_CLK'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_CLKo[12]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -0.675
+TNS   : -5.400
+
+Type  : Fast 1200mV 0C Model Recovery 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -0.068
+TNS   : -1.101
+
+Type  : Fast 1200mV 0C Model Recovery 'PS2_CLK'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'PS2_CLK'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : 0.909
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -182.982
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PS2_CLK'
+Slack : -3.000
+TNS   : -4.397
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ball_location:bloc|milliclk'
+Slack : -1.000
+TNS   : -28.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_CLKo[0]'
+Slack : -1.000
+TNS   : -26.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|keyready'
+Slack : -1.000
+TNS   : -26.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|vga_time_generator:vga0|VGA_HS_o'
+Slack : -1.000
+TNS   : -26.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|milliclk'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|ps2_clk_in'
+Slack : -1.000
+TNS   : -16.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_CLKo[12]'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'gridcolor:st1|ps2_keyboard:keyboard|clk_div[8]'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------
