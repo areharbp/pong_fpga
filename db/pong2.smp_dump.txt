@@ -1,0 +1,11 @@
+
+State Machine - |pong2|gridcolor:st1|s
+Name s.TWOWIN s.ONEWIN s.TWOGOAL s.ONEGOAL s.GAME s.TWOADV s.ONEADV s.TRUESTART 
+s.TRUESTART 0 0 0 0 0 0 0 0 
+s.ONEADV 0 0 0 0 0 0 1 1 
+s.TWOADV 0 0 0 0 0 1 0 1 
+s.GAME 0 0 0 0 1 0 0 1 
+s.ONEGOAL 0 0 0 1 0 0 0 1 
+s.TWOGOAL 0 0 1 0 0 0 0 1 
+s.ONEWIN 0 1 0 0 0 0 0 1 
+s.TWOWIN 1 0 0 0 0 0 0 1 
